@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 
+import routes from './routes';
+
 
 class App {
     constructor() {
@@ -15,9 +17,7 @@ class App {
     }
 
     routes() {
-        this.server.get('/', (req, res) => {
-            res.send('Conectado a porta 5000');
-        })
+        this.server.use(routes);
     }
 }
 
