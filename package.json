@@ -6,6 +6,7 @@
   "author": "Joan Wilson",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^14.2.0",
     "express": "^4.17.2"
   },
