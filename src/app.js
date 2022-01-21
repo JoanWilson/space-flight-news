@@ -3,6 +3,8 @@ import cors from 'cors';
 
 import routes from './routes';
 
+//Database exportada já instânciada
+import './database/index'; 
 
 class App {
     constructor() {
