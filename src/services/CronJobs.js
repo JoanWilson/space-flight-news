@@ -6,7 +6,7 @@ class CronJobs {
         this.dailyArticle();
     }
     dailyArticle() {
-        cron.schedule('0 8 * * *', () => {
+        cron.schedule('0 9 * * *', () => {
 
             const dailyArticle = Articles.create({
                 featured: true,
