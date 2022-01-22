@@ -8,7 +8,7 @@ import routes from './routes';
 //Database exportada já instânciada
 import './database/index';
 
-import CronJobs from './services/CronJobs'; 
+import CronJobs from './jobs/CronJobs'; 
 
 class App {
     constructor() {
