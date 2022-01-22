@@ -5,7 +5,10 @@ class ArticlesController {
     //Mostra todos os artigos
     async index(req, res) {
         try {
-            const articles = await Articles.find();
+            const { page = 1, limit = 5 } = req.query;
+            const articles = await Articles.find()
+                .limit(limit *1)
+                .skip((page-1)*limit);
             return res.json(articles);
         } catch (error) {
             console.log(error.message);
@@ -90,7 +93,7 @@ class ArticlesController {
         try {
             const { id } = req.params;
             const article = Articles.findById(id);
-            
+
             if (!article) {
                 return res.status(404).render('<h1>Erro 404, não encontrado</h1>');
             } else {
