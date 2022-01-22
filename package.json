@@ -13,10 +13,12 @@
     "node-cron": "^3.0.0"
   },
   "devDependencies": {
+    "cypress": "^9.3.1",
     "nodemon": "^2.0.15",
     "sucrase": "^3.20.3"
   },
   "scripts": {
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon ./src/server.js",
+    "test": "./node_modules/.bin/cypress run"
   }
 }
