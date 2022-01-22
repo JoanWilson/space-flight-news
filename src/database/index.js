@@ -4,7 +4,7 @@ import config from '../config/database';
 
 class Database {
     constructor() {
-        //Configuração padrão de conexão com Mongoose, Vide documentação
+        //Configuração padrão de conexão com Mongoose, Vide documentação mongoose
         this.connection = mongoose.connect(
             config.url,
             {
