@@ -1,0 +1,19 @@
+{
+    "featured": true,
+    "title": "Teste da Api",
+    "url": "String",
+    "imageUrl": "String",
+    "newsSite": "String",
+    "summary": "String",
+    "publishedAt": "s",
+    "launches": [
+        {
+            "provider": "Daily"
+        }
+    ],
+    "events": [
+        {
+            "provider": "Daily"
+        }
+    ]
+}
