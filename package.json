@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Joan Wilson",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^14.2.0",
@@ -20,6 +19,6 @@
   },
   "scripts": {
     "dev": "nodemon ./src/server.js",
-    "start": "node ./src/server.js"
+    "start": "nodemon ./src/server.js"
   }
 }
