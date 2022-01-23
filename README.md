@@ -4,6 +4,7 @@
 
 
 > This is a challenge by <a href="https://coodesh.com/" rel="nofollow noreferrer noopener" target="_blank">Coodesh</a>
+> Apresentação: https://www.loom.com/share/dd97a44beb5341bd91116696d75f24fa
 
 ### Tópicos 
 
